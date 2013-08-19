@@ -1,8 +1,24 @@
 120CppIdeas
 ===========
 
+1. Open project file
+2. If on Linux/Unix type "make"
+3. Say "./'$projectname'
+4. enjoy
+
+
+
+==========
+
 Implementing 100 CPP ideas 
 http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/
+
+Also Project Eurler http://projecteuler.net/problems in C++
+
+Will be labeled with Alphabetic nummeric
+
+=================================================================
+
 
 Martyr2’s Mega Project List
 Created by Martyr2 (DIC Mentor)
