@@ -11,7 +11,7 @@ int main(int argc, char** argv){
 	string word;
 	cin >> word;
 
-	for (std::string::reverse_iterator rit=word.rbegin(); rit!=str.rend(); ++rit){
+	for (std::string::reverse_iterator rit=word.rbegin(); rit!=word.rend(); ++rit){
 			cout << *rit;
 	}
 
