@@ -14,9 +14,8 @@ while(more==true){
 	cout <<"Enter a Word to count  \n";
 	string word;
 	cin >> word;
-	for (std::string::iterator rit=(word.begin()); rit!=word.end(); ++rit){
+	for (std::string::iterator rit=(word.begin()); rit!=word.end(); ++rit){		
 	if (word[*rit]==('a')||('e')||('i')||('o')||('u') ){// && rit!=word.end())
-		cerr << word[*rit];
 		count++;
 			}
 		}
