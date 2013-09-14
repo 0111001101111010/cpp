@@ -27,6 +27,6 @@ while(more==true){
 
 
 	}
-
+//not working not finished.
 	return 0;
 }
