@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="triangle_8cpp" kind="file">
+    <compoundname>triangle.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>fstream</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="0">
+        <label>triangle.cpp</label>
+        <link refid="triangle.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="triangle_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><heading level="1">Quickstart Usage</heading>
+</para><para><heading level="2">Run with an input file</heading>
+</para><para>argument parameters == 2 ex: usage ./triangle inputFile</para><para><heading level="2">Run manually</heading>
+</para><para>otherwise if argument parameters ==1 ex usage ./triangle</para><para><heading level="1">Variable initialize</heading>
+</para><para><heading level="2">Initalizing Integers</heading>
+</para><para>There are initalizations of all the vector points In testing all point are of type INTEGERS</para><para><heading level="1">Initalize Input Stream</heading>
+</para><para>Defining input from external file inFile opening the second file hopefully in a format of ``` input.txt 2 3 3 5 5 6 4 7 8 ```</para><para><heading level="1">Inputting Logic</heading>
+</para><para>enter three points or take from input no input detected do coordinates infile does the user want to go again? passed in input do it input file coordinates Randomally generate an array of size 201 containing range of -100 to 100 coordinates pull 3 random numbers in the array <heading level="2">after finished</heading>
+</para><para>Would you like to try out another set of coordinates?: Enter 1 for YES Enter 0 for NO or CTR+C to end the program:</para><para><heading level="1">Calculating the length between coordinates: </heading>
+</para><para><verbatim>X= calculating A-&gt;B
+Y= calculating B-&gt;C
+Z= calculating C-&gt;A 
+</verbatim></para><para><heading level="1">Testing it</heading>
+</para><para>Run these short tests to make sure the correct output is expected double test = (pow((a1-b1),2)+ pow((a2-b2),2) + pow((a3-b3),2)); cerr &lt;&lt; test &lt;&lt; &quot;\n&quot;;</para><para><heading level="2">*Calculating the length between coordinates </heading>
+</para><para>calculating A-&gt;B calculating B-&gt;C calculating C-&gt;A</para><para>*is this a triangle? *are they colinear? *cerr &lt;&lt; x &lt;&lt; &quot; &quot; &lt;&lt; y &lt;&lt; &quot; &quot;&lt;&lt; z; i rule of lines <heading level="2">determine if colinear</heading>
+</para><para>compare using the rule of lines. Is triangle if A + B &gt; C B + C &gt; A A + C &gt; B <heading level="2">determine type of triangle</heading>
+</para><para>iscosoles scalene equalateral <heading level="2">other attributes such as angle size</heading>
+</para><para>Acute Right Obtuse</para><para>Determines if its a triangle and of what type Equalateral if X == Y == Z</para><para>Equalateral </para>        </inbodydescription>
+        <location file="/home/stanley/code/cpp/triangles/triangle.cpp" line="17" bodyfile="/home/stanley/code/cpp/triangles/triangle.cpp" bodystart="17" bodyend="228"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="9"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="triangle_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="triangle_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a1=<sp/>0,<sp/>a2=<sp/>0,<sp/>a3=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>b1=<sp/>0,<sp/>b2=<sp/>0,<sp/>b3=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>c1=<sp/>0,<sp/>c2=<sp/>0,<sp/>c3=-0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x=0,<sp/>y=0,<sp/>z=0;<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment">Initalize<sp/>Doubles<sp/>X,<sp/>Y,<sp/>Z</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">---------------------------</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">bool<sp/>go<sp/>=<sp/>true,<sp/>triangle<sp/>=<sp/>false;<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"></highlight></codeline>
+<codeline lineno="59"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">Initalize<sp/><sp/>Bools<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment">-----------------------</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*<sp/><sp/><sp/>Bool<sp/>Go<sp/>is<sp/>a<sp/>control<sp/>flag<sp/>for<sp/>the<sp/>while<sp/>loop</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">*<sp/><sp/><sp/>Bool<sp/>Triangle<sp/>is<sp/>the<sp/>determination<sp/>if<sp/>it<sp/>is<sp/>a<sp/>triangle<sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">ifstream<sp/>inFile;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">inFile.open(argv[1]);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">std::vector&lt;int&gt;<sp/>myInts;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>-100;<sp/>i<sp/>&lt;<sp/>100;<sp/>++i)<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>myInts.push_back(i);<sp/></highlight><highlight class="comment">//<sp/>Sets<sp/>myInts<sp/>to<sp/>[-100<sp/>...<sp/>100]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">random_shuffle(myInts.begin(),<sp/>myInts.end());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Welcome<sp/>to<sp/>Pointy&apos;s<sp/>Triangle<sp/>determiner<sp/>\n\n&quot;</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(inFile.eof()<sp/>||<sp/>go<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>test<sp/>=<sp/>(argv[1]!=NULL);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(test){</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>inFile<sp/>&gt;&gt;<sp/>a1<sp/>&gt;&gt;<sp/>a2&gt;&gt;<sp/>a3<sp/>&gt;&gt;<sp/>b1<sp/>&gt;&gt;<sp/>b2<sp/>&gt;&gt;<sp/>b3<sp/>&gt;&gt;<sp/>c1<sp/>&gt;&gt;<sp/>c2<sp/>&gt;&gt;<sp/>c3;<sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FIRST<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>a1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>a2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>a3<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SECOND<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>b1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>b2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>b3<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;THIRD<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/><sp/>&lt;&lt;<sp/>c1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>c2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>c3<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>random;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Did<sp/>you<sp/>want<sp/>to<sp/>randomally<sp/>generate<sp/>a<sp/>set?\nEnter<sp/>a<sp/>seed<sp/>integer<sp/>greater<sp/>than<sp/>1<sp/>FOR<sp/>RANDOM\nEnter<sp/>0<sp/>for<sp/>Manual\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">cin<sp/>&gt;&gt;<sp/>random;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(random&gt;0){</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n\n\n\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>random<sp/>=<sp/>random<sp/>%200;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>a1<sp/>=<sp/>myInts[random];</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>a2<sp/>=<sp/>myInts[random+1];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>a3<sp/>=<sp/>myInts[random+2];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>b1<sp/>=<sp/>myInts[random+3];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>b2<sp/>=<sp/>myInts[random+4];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>b3<sp/>=<sp/>myInts[random+5];</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>c1<sp/>=<sp/>myInts[random+6];</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>c2<sp/>=<sp/>myInts[random+7];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>c3<sp/>=<sp/>myInts[random+8];</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FIRST<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>a1&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>a2&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>a3&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SECOND<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>b1&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>b2&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>b3<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;THIRD<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format:<sp/>&quot;</highlight><highlight class="normal"><sp/><sp/>&lt;&lt;<sp/>c1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>c2&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>c3<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;please<sp/>enter<sp/>first<sp/><sp/>coordinates<sp/>in<sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format<sp/>\n&quot;</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>a1<sp/>&gt;&gt;<sp/>a2&gt;&gt;<sp/>a3;<sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nplease<sp/>enter<sp/>second<sp/>coordinate<sp/>in<sp/><sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format<sp/>\n&quot;</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>b1<sp/>&gt;&gt;<sp/>b2<sp/>&gt;&gt;<sp/>b3;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nplease<sp/>enter<sp/>third<sp/><sp/>coordinate<sp/>in<sp/><sp/>&apos;<sp/>X<sp/>Y<sp/>Z<sp/>&apos;format<sp/>\n&quot;</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>cin&gt;&gt;<sp/><sp/>c1<sp/>&gt;&gt;<sp/>c2<sp/>&gt;&gt;<sp/>c3;<sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>sqrt((pow((a1-b1),2)+<sp/>pow((a2-b2),2)<sp/>+<sp/>pow((a3-b3),2)));<sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>sqrt((pow((b1-c1),2)+<sp/>pow((b2-c2),2)<sp/>+<sp/>pow((b3-c3),2)));</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>z<sp/>=<sp/>sqrt((pow((c1-a1),2)+<sp/>pow((c2-a2),2)<sp/>+<sp/>pow((c3-a3),2)));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nYour<sp/>coordinate<sp/>lengths<sp/>returned<sp/>are<sp/>(in<sp/>X<sp/>Y<sp/>Z<sp/>format):<sp/>\n&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;X:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>x<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Y:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>y<sp/>&lt;&lt;<sp/><sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Z:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>z<sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>triangle<sp/>=<sp/>(((x+y)&gt;z)&amp;&amp;((x+z)&gt;y)&amp;&amp;((y+z)&gt;x));</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(triangle){</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;this<sp/>is<sp/>a<sp/>triangle<sp/>and<sp/>the<sp/>points<sp/>are<sp/>NOT<sp/>colinear<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((x==y)&amp;&amp;<sp/>(y==z))</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;the<sp/>triangle<sp/>is<sp/>equalateral<sp/>and<sp/>cannot<sp/>be<sp/>a<sp/>right<sp/>riangle\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/><sp/>((x==y)<sp/>||<sp/>(<sp/>y==z)<sp/>||<sp/>(x==z))<sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;the<sp/>triangle<sp/>is<sp/>iscosoles<sp/>and<sp/>could<sp/>be<sp/>a<sp/>right<sp/>triangle\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;triangle<sp/>is<sp/>scalene<sp/>and<sp/>could<sp/>be<sp/>a<sp/>right<sp/>triangle<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n\n\n\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;this<sp/>is<sp/>NOT<sp/>a<sp/>triangle<sp/>and<sp/>the<sp/>points<sp/>are<sp/>colinear\n\n\n\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Would<sp/>you<sp/>like<sp/>to<sp/>try<sp/>out<sp/>another<sp/>set<sp/>of<sp/>coordinates?\nEnter<sp/>1<sp/>for<sp/>YES<sp/>\nEnter<sp/>0<sp/>for<sp/>NO<sp/>or<sp/>CTR+C<sp/>to<sp/>end<sp/>the<sp/>program:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>go;<sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\n\n\n\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/stanley/code/cpp/triangles/triangle.cpp"/>
+  </compounddef>
+</doxygen>
