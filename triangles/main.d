@@ -80,4 +80,13 @@
  /usr/include/x86_64-linux-gnu/bits/nan.h \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/include/c++/4.7/fstream /usr/include/c++/4.7/bits/codecvt.h \
+ /usr/include/c++/4.7/cstdio /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++io.h \
+ /usr/include/c++/4.7/bits/fstream.tcc
