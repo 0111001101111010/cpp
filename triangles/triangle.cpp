@@ -99,7 +99,7 @@ else{
 	x = sqrt((pow((a1-b1),2)+ pow((a2-b2),2) + pow((a3-b3),2)));  
 	y = sqrt((pow((b1-c1),2)+ pow((b2-c2),2) + pow((b3-c3),2)));
 	z = sqrt((pow((c1-a1),2)+ pow((c2-a2),2) + pow((c3-a3),2)));
-	cout << "\n\nYour coordinate lengths returned are (in X Y Z format): \n" << "X:" << x << " " << "Y:" << y <<  " " << "Z:" << z  << "\n\n";
+	cout << "\nYour coordinate lengths returned are (in X Y Z format): \n" << "X:" << x << " " << "Y:" << y <<  " " << "Z:" << z  << "\n\n";
 /*!
 *
 *Calculating the length between coordinates 
