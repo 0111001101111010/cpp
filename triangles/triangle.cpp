@@ -74,22 +74,25 @@ Initalize  Input Stream
 =================
 *	Defining input from external file inFile 
 *	opening the second file hopefully in a format of input
+Input.txt
+----------------
+	2 3 4
 
-2 3 4	
+	3 4 5
 
-3 4 5
+	6 3 5
 
-6 3 5 	
 
 Inputting Logic
 ===================
 enter three points or take from manual kebyoard
 ----------------------------------
-	no input detected do coordinates 
-	input the file through the keyboard by prompting the user
-	calculate triangle lengths	
-	make determinations about triangle or not 	
-	after the user is finished ask them if they want to go again	  
+
+	no input detected do coordinates 		
+	input the file through the keyboard by prompting the user	
+	calculate triangle lengths		
+	make determinations about triangle or NOT 	
+	after the user is finished ask them if they want to go again		  
 
 ![passed in](../../Images/manual.png)
 passed in input
@@ -101,15 +104,17 @@ passed in input
 	after the user is finished ask them if they want to go again	  
 
 ![passed](../../Images/input.png)
-
 Randomally
----------------
-	generate an array of size 201 containing range of -100 to 100	
-	to form coordinates, pull 3 random numbers in the array	
-	calculate triangle lengths		
-	make determinations about triangle or not 	
-	after the user is finished ask them if they want to go again	  	
+---------------		
+
+	generate an array of size 201 containing range of -100 to 100			
+	to form coordinates, pull 3 random numbers in the array				
+	calculate triangle lengths				
+	make determinations about triangle or not 				
+	after the user is finished ask them if they want to go again	
+
 ![Random](../../Images/random.png)
+
 After finished
 ------------------------
 Would you like to try out another set of coordinates?: 
