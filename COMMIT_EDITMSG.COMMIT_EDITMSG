@@ -1,0 +1,76 @@
+Adding Notes for CS361 Notes for Recursion 08/10/2013 05:56:22 AM 
+
+# adding C++ gists
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/cpp/cpp.markdown b/cpp/cpp.markdown
+new file mode 100644
+index 0000000..2deee49
+--- /dev/null
++++ b/cpp/cpp.markdown
+@@ -0,0 +1,42 @@
++ Notes 08/10/2013 04:44:59 AM 
++-------
++#inline functions use scope operations :: 
++#template
++#inline static line
++
++datatypes can you list them all
++-------------------------------
++	-Vector
++	-Stack
++	-Deque
++	-list
++	-map
++	-multimap
++	-hash
++08/10/2013 05:32:24 AM
++Recursion
++	Cases for Loops VS Recursion
++	-Expressiveness - Simpler to write (recursion wins) 
++	-Performance - Faster to run (performance wins)
++Activation Stack
++	-Activation Records 
++	-Everything is actually just a loop
++	-Machine and Compiler Dependent
++		-Saved State				<Activation record>   				(Address)
++		-Params                     <Activation record> <--- Top Frame
++		-Function                   <Activation record> 
++		-incomplete Activation Record  <top of record>
++	-Example of above
++		-dist (j=0,i=0) <--saved state
++		-processDataset <--function
++		-underground cables <--- function
++		-main <-- top of stack
++	-Stacks powerful to rewrite instead of Recursion (PROTIPZ)
++	-Tail Recursive	
++		****A function is called tail-recursive if each activation of the function will make at most a single recursive call, and will return immediately after that call (with no further calculation performed upon the return value from the call). Tail recursive routines have an immediate, and simple pattern of conversion.
++		:Example: Binary Search- Split, look, split, look, split look
++
++*Any recursive algorithm can be converted to an iterative form by using a stack to capture the “history” of
++• local variables
++
++
+diff --git a/untitled b/untitled
+new file mode 100644
+index 0000000..3091b4b
+--- /dev/null
++++ b/untitled
+@@ -0,0 +1,14 @@
++ Notes 
++-------
++#inline functions use scope operations :: 
++#template
++#inline static line
++#datatypes can you list them all
++	-Vector
++	-Stack
++	-Deque
++	-list
++	-map
++	-multimap
++	-hash
++	
+\ No newline at end of file
