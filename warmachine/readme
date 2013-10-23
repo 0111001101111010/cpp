@@ -1,0 +1,46 @@
+WarMachine 
+==========
+
+1. Important Facts
+2. Stats
+3. Units
+4. Focus pools
+5. Turn Phases
+6. Attack Types 
+
+
+
+Important Facts
+-----
++Many Factions with distinct abilities
++Turn phases are important
++Weapons have qualities 
+
+Stats
+------
+SPD - Speed - How far the model can move in inches 
+STR - Strength - The measure of the models physical strength 
+MAT - Melee Attack - The measure of the models skill with melee weapons
+RAT - Range Attack - The measure of the models accuracy with range weapon
+AMR - Armour - The amount of resistence to damage 	
+DEF - Defense - The amount of ability to avoid damage
+CMD - Command - Not used in beginning
+
+Units 
+-----
++War Caster
++War Jacks
+ 
+
+Focus Pools
+------
+Turn Phases
+----------
+Attack Types
+-------------
+RNG - Range
+ROF - Rante of fire
+AOE - Area of Effect 
+POW - Power - base damage
+P+S - Power + strength reference  
+

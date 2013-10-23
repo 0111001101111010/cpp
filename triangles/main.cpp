@@ -11,9 +11,9 @@ int a1= 0, a2= 0, a3= 0, b1= 0, b2= 0, b3= 0, c1= 0, c2= 0, c3=0;
 	//no input detected 
 	cout << "please enter first coordinates in ' X Y Z 'format \n" ;
 	cin >> a1 >> a2 >> a3;
-	cout << "please enter second coordinates in ' X Y Z 'format \n" ;
+	cout << "please enter second coordinates in X Y Z 'format \n" ;
 	cin >> a1 >> a2 >> a3;
-	cout << "please enter third coordinate in ' X Y Z 'format \n" ;
+	cout << "please enter third coordinate in: X Y Z format \n" ;
 	cin >> a1 >> a2 >> a3;
 	//operate on these points A,B,C
 		//figure out length of A->B, B->C, C->A
