@@ -1,0 +1,60 @@
+**Use the HTML version for best experience, if stuck please email szheng@cs.odu.edu thank you**
+
+Project	Triangle						
+=====================							
+Starting this assignment my estimates were
+------------------------
+Total Lines of Code: 200
+Time (in minutes): 360 (or 6 hours)
+Errors: 30
+
+Finishing this assignment
+-------------------------- 
+Total Lines of Code: 249
+Time (in minutes): 605 (or 10 hours 5 minutes)
+Errors: 15
+
+The Error % analysis 
+--------------------
+Total Lines of Code: 24.50% percent error (over lines)
+Time (in minutes): 68.06% error (over time)
+Errors:50% (under expectations )
+
+
+
+Some of the details I learned from this experience included
+----------------------------------------------------
+	-Get design clarifications early and make sure analyzing the right problem
+	-Reread design specifications to make sure if not going off tangent
+	-Stick to what you know rather than new unfamiliar styles
+	-Minimize the 'fluff' between coding sessions for maximum producivity
+	-Be verbose with documentations during
+	-Read doxygen or javadocs synathx before starting to save time 
+
+
+Error Key Docs
+=============
+100 Semantic
+105 Missing semi colon
+110 not enough parameters
+115 missing parenthesis or brace
+120 Markdown Error
+125 resource not found
+130 Doxygen error
+
+
+
+200 Runtime
+205 out of scope
+210 loop error
+215 undefined variables
+220 no-output
+225 exception error
+
+
+
+
+300 Logic Error
+305 design issue
+310 logic gap
+315 missing input

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="triangle_8d" kind="file">
+    <compoundname>triangle.d</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">./triangle.o:<sp/>triangle.cpp<sp/>/usr/include/c++/4.7/iostream<sp/>\</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++config.h<sp/>\</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/os_defines.h<sp/>\</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/>/usr/include/features.h<sp/>/usr/include/stdc-predef.h<sp/>\</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/predefs.h<sp/>\</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/sys/cdefs.h<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/wordsize.h<sp/>\</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/gnu/stubs.h<sp/>\</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/gnu/stubs-64.h<sp/>\</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/cpu_defines.h<sp/>\</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>/usr/include/c++/4.7/ostream<sp/>/usr/include/c++/4.7/ios<sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/>/usr/include/c++/4.7/iosfwd<sp/>/usr/include/c++/4.7/bits/stringfwd.h<sp/>\</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/postypes.h<sp/>/usr/include/c++/4.7/cwchar<sp/>\</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/>/usr/include/wchar.h<sp/>/usr/include/stdio.h<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/>/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/wchar.h<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/>/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/>/usr/include/xlocale.h<sp/>/usr/include/x86_64-linux-gnu/bits/wchar2.h<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/>/usr/include/c++/4.7/exception<sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/atomic_lockfree_defines.h<sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/char_traits.h<sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_algobase.h<sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/functexcept.h<sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/exception_defines.h<sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/cpp_type_traits.h<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/>/usr/include/c++/4.7/ext/type_traits.h<sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/>/usr/include/c++/4.7/ext/numeric_traits.h<sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_pair.h<sp/>/usr/include/c++/4.7/bits/move.h<sp/>\</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/concept_check.h<sp/>\</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_iterator_base_types.h<sp/>\</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_iterator_base_funcs.h<sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_iterator.h<sp/>\</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/>/usr/include/c++/4.7/debug/debug.h<sp/>/usr/include/c++/4.7/bits/localefwd.h<sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++locale.h<sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/>/usr/include/c++/4.7/clocale<sp/>/usr/include/locale.h<sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/locale.h<sp/>/usr/include/c++/4.7/cctype<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/>/usr/include/ctype.h<sp/>/usr/include/x86_64-linux-gnu/bits/types.h<sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/typesizes.h<sp/>/usr/include/endian.h<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/endian.h<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/byteswap.h<sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/byteswap-16.h<sp/>\</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/ios_base.h<sp/>\</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/>/usr/include/c++/4.7/ext/atomicity.h<sp/>\</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/gthr.h<sp/>\</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/gthr-</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">.h<sp/>\</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/>/usr/include/pthread.h<sp/>/usr/include/sched.h<sp/>/usr/include/time.h<sp/>\</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/sched.h<sp/>\</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/time.h<sp/>\</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/timex.h<sp/>\</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h<sp/>\</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/setjmp.h<sp/>\</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/atomic_word.h<sp/>\</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/locale_classes.h<sp/>/usr/include/c++/4.7/</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/allocator.h<sp/>\</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++allocator.h<sp/>\</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/>/usr/include/c++/4.7/ext/new_allocator.h<sp/>/usr/include/c++/4.7/</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/ostream_insert.h<sp/>\</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/cxxabi_forced.h<sp/>\</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/stl_function.h<sp/>\</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/>/usr/include/c++/4.7/backward/binders.h<sp/>\</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/range_access.h<sp/>\</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/basic_string.h<sp/>\</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/basic_string.tcc<sp/>\</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/locale_classes.tcc<sp/>\</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/>/usr/include/c++/4.7/streambuf<sp/>/usr/include/c++/4.7/bits/streambuf.tcc<sp/>\</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/basic_ios.h<sp/>\</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/locale_facets.h<sp/>/usr/include/c++/4.7/cwctype<sp/>\</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/>/usr/include/wctype.h<sp/>\</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/ctype_base.h<sp/>\</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/streambuf_iterator.h<sp/>\</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/ctype_inline.h<sp/>\</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/locale_facets.tcc<sp/>\</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/basic_ios.tcc<sp/>\</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/ostream.tcc<sp/>/usr/include/c++/4.7/istream<sp/>\</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/istream.tcc<sp/>/usr/include/c++/4.7/cmath<sp/>\</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/>/usr/include/math.h<sp/>/usr/include/x86_64-linux-gnu/bits/huge_val.h<sp/>\</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/huge_valf.h<sp/>\</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/huge_vall.h<sp/>\</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/inf.h<sp/>\</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/nan.h<sp/>\</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/mathdef.h<sp/>\</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/mathcalls.h<sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/mathinline.h<sp/>\</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/>/usr/include/c++/4.7/fstream<sp/>/usr/include/c++/4.7/bits/codecvt.h<sp/>\</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/>/usr/include/c++/4.7/cstdio<sp/>/usr/include/libio.h<sp/>\</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/>/usr/include/_G_config.h<sp/>/usr/include/x86_64-linux-gnu/bits/stdio_lim.h<sp/>\</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/sys_errlist.h<sp/>\</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/stdio.h<sp/>\</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/bits/stdio2.h<sp/>\</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/basic_file.h<sp/>\</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/>/usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++io.h<sp/>\</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/>/usr/include/c++/4.7/bits/fstream.tcc</highlight></codeline>
+    </programlisting>
+    <location file="/home/stanley/code/cpp/triangles/triangle.d"/>
+  </compounddef>
+</doxygen>

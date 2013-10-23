@@ -1,0 +1,99 @@
+.TH "triangle.cpp" 3 "Sat Sep 14 2013" "Version 1.0" "Triangle" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+triangle.cpp \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <cmath>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <algorithm>\fP
+.br
+\fC#include <vector>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (intargc, char **argv)"
+.SH "Quickstart Usage"
+.PP
+.PP
+.SS "Run with an input file"
+.PP
+argument parameters == 2 ex: usage \&./triangle inputFile
+.PP
+.SS "Run manually"
+.PP
+otherwise if argument parameters ==1 ex usage \&./triangle
+.PP
+.SH "Variable initialize"
+.PP
+.PP
+.SS "Initalizing Integers"
+.PP
+There are initalizations of all the vector points In testing all point are of type INTEGERS
+.PP
+.SH "Initalize Input Stream"
+.PP
+.PP
+Defining input from external file inFile opening the second file hopefully in a format of ``` input\&.txt 2 3 3 5 5 6 4 7 8 ```
+.PP
+.SH "Inputting Logic"
+.PP
+.PP
+enter three points or take from input no input detected do coordinates infile does the user want to go again? passed in input do it input file coordinates Randomally generate an array of size 201 containing range of -100 to 100 coordinates pull 3 random numbers in the array 
+.SS "after finished"
+.PP
+Would you like to try out another set of coordinates?: Enter 1 for YES Enter 0 for NO or CTR+C to end the program:
+.PP
+.SH "Calculating the length between coordinates: "
+.PP
+.PP
+.PP
+.nf
+X= calculating A->B
+Y= calculating B->C
+Z= calculating C->A 
+.fi
+.PP
+.PP
+.SH "Testing it"
+.PP
+.PP
+Run these short tests to make sure the correct output is expected double test = (pow((a1-b1),2)+ pow((a2-b2),2) + pow((a3-b3),2)); cerr << test << '\\n';
+.PP
+.SS "*Calculating the length between coordinates "
+.PP
+calculating A->B calculating B->C calculating C->A
+.PP
+*is this a triangle? *are they colinear? *cerr << x << ' ' << y << ' '<< z; i rule of lines 
+.SS "determine if colinear"
+.PP
+compare using the rule of lines\&. Is triangle if A + B > C B + C > A A + C > B 
+.SS "determine type of triangle"
+.PP
+iscosoles scalene equalateral 
+.SS "other attributes such as angle size"
+.PP
+Acute Right Obtuse
+.PP
+Determines if its a triangle and of what type Equalateral if X == Y == Z
+.PP
+Equalateral 
+.PP
+Definition at line 17 of file triangle\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Triangle from the source code\&.

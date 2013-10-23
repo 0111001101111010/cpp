@@ -1,0 +1,127 @@
+\hypertarget{triangle_8cpp}{\section{triangle.\-cpp File Reference}
+\label{triangle_8cpp}\index{triangle.\-cpp@{triangle.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$cmath$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$algorithm$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{triangle_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{triangle_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{\index{triangle.\-cpp@{triangle.\-cpp}!main@{main}}
+\index{main@{main}!triangle.cpp@{triangle.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{triangle_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+\subsection*{Quickstart }
+
+\subsubsection*{Briefing}
+
+From the lecture\-: Allow the user to enter from the keyboard three points in 3\-D space. or have the option of generating randomly from -\/100 and +100 in each direction
+
+\subsubsection*{Usage}
+
+Is the input points (X,Y) or is it (X,Y,Z) Input as a coordinate point..
+
+\subsubsection*{Run with an input file}
+
+argument parameters == 2 ex\-: usage ./triangle input\-File
+
+\subsubsection*{Run manually}
+
+otherwise if argument parameters ==1 ex usage ./triangle
+
+\subsection*{Variable initialize}
+
+\subsubsection*{Initalizing Integers}
+
+There are initalizations of all the vector points In testing all point are of type I\-N\-T\-E\-G\-E\-R\-S
+
+\subsection*{Initalize Input Stream}
+
+Defining input from external file in\-File opening the second file hopefully in a format of input \subsubsection*{Input.\-txt}
+
+2 3 4
+
+3 4 5
+
+6 3 5
+
+\subsection*{Inputting Logic}
+
+\subsubsection*{enter three points or take from manual kebyoard}
+
+\begin{DoxyVerb}no input detected do coordinates        
+input the file through the keyboard by prompting the user   
+calculate triangle lengths      
+make determinations about triangle or NOT   
+after the user is finished ask them if they want to go again          
+\end{DoxyVerb}
+
+
+ \subsubsection*{passed in input}
+
+\begin{DoxyVerb}input file from second argument parameter
+calculate triangle lengths  
+make determinations about triangle or not   
+after the user is finished ask them if they want to go again      
+\end{DoxyVerb}
+
+
+ \subsubsection*{Randomally}
+
+\begin{DoxyVerb}generate an array of size 201 containing range of -100 to 100           
+to form coordinates, pull 3 random numbers in the array             
+calculate triangle lengths              
+make determinations about triangle or not               
+after the user is finished ask them if they want to go again    
+\end{DoxyVerb}
+
+
+
+
+\subsubsection*{After finished}
+
+Would you like to try out another set of coordinates?\-: Enter 1 for Y\-E\-S Enter 0 for N\-O or C\-T\-R+\-C to end the program\-:
+
+\subsection*{Calculating the length between coordinates\-: }
+
+\begin{DoxyVerb}X= calculating A->B
+Y= calculating B->C
+Z= calculating C->A 
+\end{DoxyVerb}
+
+
+\subsection*{Testing it}
+
+Run these short tests to make sure the correct output is expected
+
+double test = (pow((a1-\/b1),2)+ pow((a2-\/b2),2) + pow((a3-\/b3),2)); cerr $<$$<$ test $<$$<$ \char`\"{}\textbackslash{}n\char`\"{};
+
+\subsubsection*{$\ast$\-Calculating the length between coordinates }
+
+calculating A-\/$>$B calculating B-\/$>$C calculating C-\/$>$A
+
+$\ast$is this a triangle? $\ast$are they colinear? $\ast$cerr $<$$<$ x $<$$<$ \char`\"{} \char`\"{} $<$$<$ y $<$$<$ \char`\"{} \char`\"{}$<$$<$ z; i rule of lines \subsubsection*{determine if colinear}
+
+compare using the rule of lines. Is triangle if A + B $>$ C B + C $>$ A A + C $>$ B \subsubsection*{determine type of triangle}
+
+iscosoles scalene equalateral \subsubsection*{other attributes such as angle size}
+
+Acute Right Obtuse
+
+Determines if its a triangle and of what type Equalateral if X == Y == Z
+
+Equalateral 
+
+Definition at line 11 of file triangle.\-cpp.
+
