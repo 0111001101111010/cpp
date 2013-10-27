@@ -1,0 +1,268 @@
+@charset "utf-8"; 
+/* Drupal 6 Iron Kingdoms - Created by Daryl Roberts
+Heading Color: #eeb300
+
+/*----------------------------------------------------------------------------------------*/
+/* [GC] Global CSS -----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+html{background:#000 url(images/background.jpg) repeat scroll 50% 0;overflow-x:hidden;}
+body{overflow-x:hidden;color:#ffffff;}
+p a:link{text-decoration:underline;}
+a:link,a:visited{color:#eeb300;text-decoration:none;}
+a:focus,:focus{outline:none;}
+a:hover,a:active,li a.active{outline:none;text-decoration:underline;}
+.divider{background:url(images/divider.png) no-repeat top center;}
+.spacer {background: url(images/divider.png) no-repeat top center;}
+
+/*----------------------------------------------------------------------------------------*/
+/* [PS] Page Structure -------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+/* Illustration Frame */
+#frame-container .frame{background:url(images/frame/background.jpg) no-repeat 17px 18px;}
+#frame-container .frame-top{background:url(images/frame/top.png) no-repeat;}
+#frame-container .frame-left{background:url(images/frame/left.png) no-repeat;}
+#frame-container .frame-right{background:url(images/frame/right.png) no-repeat;}
+#frame-container .frame-bottom{background:url(images/frame/bottom.png) no-repeat;}
+
+#wrapper {position: relative; z-index: 10;}
+
+/* Search Box */
+#search{width:176px;background:url(images/search/background.png) no-repeat 0 0;margin:0 0 0 12px;height:43px;position:relative;}
+#edit-search-theme-form-1-wrapper{display:block;height:20px;width:130px;padding:5px 0 0 15px;}
+#search .form-item{margin:0;}
+#search input.form-text{height:14px;width:125px;background:transparent;border:0;margin:0;color:#eeb300;vertical-align:top;font-size:.9em}
+#search input.form-submit{top:3px;right:9px;position:absolute;display:block;padding:0;margin:0;}
+#block-menu_block-1 ul.menu li a img.signwriter {
+	margin-top: -5px;
+}
+
+/* Privateer Logo */
+#logo-container{padding:0;margin:-30px -6px 0;height:264px;width:216px;background:url(images/header-plaque.png) no-repeat 0 0;}
+#privateer-logo{margin:40px 42px 40px 38px;}
+
+/* Menu structure */
+#block-menu_block-1{background:url(images/primary-links/gear.png) no-repeat scroll bottom center;padding:0 0 75px 0;margin:-40px 0 0 -2px;width:205px;}
+#block-menu_block-1 .block-top {background: url(images/primary-links/top.png) no-repeat 0 0; width: 205px; height: 24px; margin: 0 0 0 0}
+#block-menu_block-1 .block-content { background: url(images/primary-links/content.png) repeat-y 0 0; padding: 0 11px; margin: 0 0 0 0; padding: 15px 0 20px 0;}
+#block-menu_block-1 .block-bottom {background: url(images/primary-links/bottom.png) no-repeat 0 0; width: 205px; height: 34px; margin: 0 0 0 0;}
+/* Primary Links Menu */
+#block-menu_block-1 ul.menu{background:transparent url(images/primary-links/background.jpg) repeat-y scroll 15px 0px;margin:-15px 0 -20px 11px;padding:15px 0 10px 0;}
+/* First Level */
+#block-menu_block-1 ul.menu li{list-style-image:none;list-style-type:none;position:relative;background:url(images/primary-links/li.png) no-repeat top right;padding:15px 0 20px 0;margin:-30px 0 -35px 0;width:188px;}
+#block-menu_block-1 ul.menu li.leaf{background:none;}
+#block-menu_block-1 ul.menu li.first{}
+#block-menu_block-1 ul.menu li.last{}
+#block-menu_block-1 ul.menu li a{background:transparent url(images/primary-links/menu-link.png) no-repeat scroll 0 0;display:block;font-size:18px;height:42px;line-height:30px;margin:0 0 -15px 2px;padding:3px 0 0 19px;position:relative;text-decoration:none;top:-2px;width:157px;z-index:5;font-variant:small-caps;}
+#block-menu_block-1 ul.menu li.leaf a{background-image:url(images/primary-links/leaf.png);}
+#block-menu_block-1 ul.menu li a:hover{background-position:0 -45px;}
+#block-menu_block-1 ul.menu li a.icon-link{background:transparent url(images/primary-links/arrows.png) no-repeat scroll 0 0;display:block;height:30px;top:13px;left:145px;margin:0 0 0 0;padding:0 0 0 0;position:absolute;width:33px;z-index:10;}
+#block-menu_block-1 ul.menu li.collapsed a.icon-link{background-position:0 0;}
+#block-menu_block-1 ul.menu li.expanded a.icon-link{background-position:0 -26px;}
+#block-menu_block-1 ul.menu li.collapsed a.icon-link:hover{background-position:0 -52px;}
+#block-menu_block-1 ul.menu li.expanded a.icon-link:hover{background-position:0 -78px;}
+/* Second Level List */
+#block-menu_block-1 ul.menu ul{background:none;font-size:12px;margin:0 0 0 36px;padding:0 0 0 0;width:123px;vertical-align:bottom;}
+#block-menu_block-1 ul.menu li li{height: auto;background:none;margin:0 0 0 0;padding:0 0 0 0;}
+#block-menu_block-1 ul.menu li li.last{height:auto;}
+#block-menu_block-1 ul.menu li.expanded li{}
+#block-menu_block-1 ul.menu li.collapsed li{}
+#block-menu_block-1 ul.menu li li a{background:none;border:none;font-size:13px;height:22px;line-height:22px;padding:0 0 0 4px;margin:0 0 0 0;width:120px;color:#FFFFFF;font-variant:normal;}
+#block-menu_block-1 ul.menu li li.leaf a{background:none;}
+#block-menu_block-1 ul.menu li li a.active-trail{color:#eeb300;background:transparent url(images/opacity-30.png) repeat 0 0;}
+#block-menu_block-1 ul.menu li li a:hover{color:#eeb300;background:transparent url(images/opacity-65.png) repeat 0 0;}
+#block-menu_block-1 ul.menu li li a.icon-link{height:22px;left:-25px;top:-2px;width:24px;background:url(images/primary-links/arrows.png) no-repeat 0 0;}
+#block-menu_block-1 ul.menu li li.collapsed a.icon-link{background-position:0 -3px;}
+#block-menu_block-1 ul.menu li li.expanded a.icon-link{background-position:0 -29px;}
+#block-menu_block-1 ul.menu li li.collapsed a.icon-link:hover{background-position:0 -55px;}
+#block-menu_block-1 ul.menu li li.expanded a.icon-link:hover{background-position:0 -81px;}
+/* Third Level */
+#block-menu_block-1 ul.menu ul ul{width:78px;margin:0 0 0 0;}
+#block-menu_block-1 ul.menu li li li{width:100px;}
+#block-menu_block-1 ul.menu li li li a{font-size:12px;line-height:20px;height:auto;padding:0 0 0 22px;margin:0 0 0 0;width:102px;}
+
+/* Center */
+#theme-logo{width:622px;margin:0 14px 0;height:336px;background:url(images/theme-logo.png) no-repeat top center;}
+
+/* Breadcrumb */
+  #breadcrumb{width:482px;height:14px;background:url(images/breadcrumb.png) no-repeat 0 0;margin:0 0 -18px 84px;padding:4px 0 0 30px;position:relative;color:#aaaaaa;}
+#breadcrumb a:visited, #breadcrumb a:link{position:relative;color:#ccc;}
+
+/* Content */
+.content-wrapper{width:628px;margin:30px 0 0 10px;padding:1px 0 0 0;}
+.content-header{position:relative;background:url(images/content/header.png) no-repeat top center;height:34px;margin:-22px 0 0;}
+.content-header .title-plaque{height:144px;position:absolute;width:467px;background:url(images/content/title-plaque.png) no-repeat 0 0;top:-5px;left:31px;margin:0;padding:13px 87px 0 42px;z-index:10;}
+.content-body{background:url(images/content/background.png) repeat-y;padding:30px 63px 1px 45px;width:520px;float:left;}
+.content-body .node-body{padding-top: 10px; padding-bottom: 20px;}
+.content-footer{background:url(images/content/footer.png) no-repeat 0 0;height:47px;clear:both;}
+
+#content-body .view-nodehierarchy-children-2col,
+#content-body .view-nodehierarchy-children-3col,
+#content-body .view-nodehierarchy-children-4col {min-height:500px;}
+
+#node-1>p {display:none;} /* WARMACHINE FRONT NODE */
+
+
+/* Pagnation */
+.item-list ul.pager{top:-10px;width:430px;height:26px;padding:6px 0 0 0;margin:-15px 0 0 117px;background:url(images/pager.png) no-repeat top left;position:relative;z-index:20;}
+
+/* Footer */
+#footer{color:#aaaaaa;background:url(images/footer.png) no-repeat 0 0;position:absolute;top:-60px;left:-43px;margin:0 0 0 0;padding:96px 0 0 0;width:953px;height:83px;text-align:center;line-height:1.6667em;z-index:0;}
+#footer a:link,#footer a:visited,#footer a:hover{text-decoration:underline;color:#aaaaaa;padding:0 5px;}
+
+/* Views */
+.view-nodehierarchy-children-2col img {background: url(images/content/2up-frame.png) no-repeat 0 0;}
+.view-nodehierarchy-children-3col img {background: url(images/content/3up-frame.png) no-repeat 0 0;}
+.view-nodehierarchy-children-4col img {background: url(images/content/4up-frame.png) no-repeat 0 0;}
+.view-nh-children-teasers-rows-split .meta {float: left; position: relative; clear: both;}
+.view-nh-children-teasers-rows-split .meta .date {display: none;}
+
+.view-content .views-row-even,
+.view-content .views-row-odd {background: url(images/divider.png) no-repeat bottom center;}
+.view-content .views-row-last {background: none;}
+
+.view-id-Content .views-row-even,
+.view-id-Content .views-row-odd {background: none;}
+.view-id-Content .views-row-last {margin-bottom: -20px;}
+
+/* Suckerfish */
+#suckerfish{font-size:.6667em;left:50px;position:absolute;text-align:left;width:560px;top:8px;z-index:999; text-align:center;}
+#suckerfish ul{height:32px;line-height:1.6em;list-style:none;margin:0px;padding:6px 0px;position:relative;z-index:999;}
+#suckerfish ul li{background-image:none;float:left;height:100%;list-style-image:none;list-style-type:none;margin:0 !important;padding:0;height:19px;}
+#suckerfish ul li a{border-bottom:none;color:#eee;display:block;font-weight:400;padding:2px 8px 6px;text-align:left;text-decoration:none;}
+#suckerfish li.last > a{background:none;}
+#suckerfish ul li:hover,
+#suckerfish ul li.iehover{background:url(images/opacity-40.png) repeat 0 0;}
+#suckerfish ul li:hover>a,
+#suckerfish ul li.iehover>a{color:#eeb300;}
+/* Second Level */
+#suckerfish ul ul{background:rgba(0,0,0,0.8);display:none;left:-999em;line-height:1.2em;margin:0 0 0 0px;padding:0 0 0px 4px;position:absolute;width:130px;height:auto; border:#333 1px solid;}
+#suckerfish ul ul a{background:none;color:#ffffff;}
+#suckerfish a.icon-link{display:none;}
+#suckerfish li li{width:122px;height:auto;}
+#suckerfish li li a{padding-top:5px;width:102px;background:url(images/suckerfish/horizontal-divider.png) no-repeat bottom left;}
+#suckerfish li li.first a{padding-top:8px;}
+/* Third Level */
+#suckerfish ul ul ul{background:url(images/suckerfish/tertiary-background.png) repeat-y 0 0;margin:-22px 0 0 123px;padding:0 0 0 0;width:200px;height:auto;}
+#suckerfish li li li{width: 200px;}
+#suckerfish li li li.first a{padding-top:5px;}
+#suckerfish li li li.top{background:url(images/suckerfish/tertiary-top.png) no-repeat top left;height:2px;}
+#suckerfish li li li.bottom{background:url(images/suckerfish/tertiary-bottom.png) no-repeat bottom left;height:2px;}
+#suckerfish li li li a{width:180px;}
+#suckerfish li:hover ul ul, #suckerfish li:hover ul ul ul, #suckerfish li:hover ul ul ul ul, #suckerfish li:hover ul ul ul ul ul, #suckerfish li.iehover ul ul, #suckerfish li.iehover ul ul ul, #suckerfish li.iehover ul ul ul ul, #suckerfish li.iehover ul ul ul ul ul{display:none;left:-999em;}
+#suckerfish li:hover ul, #suckerfish li li:hover ul, #suckerfish li li li:hover ul, #suckerfish li li li li:hover ul, #suckerfish li li li li li:hover ul, #suckerfish li.iehover ul, #suckerfish li li.iehover ul, #suckerfish li li li.iehover ul, #suckerfish li li li li.iehover ul, #suckerfish li li li li li.iehover ul{display:block;left:auto;}
+#suckerfish li.admin-menu-action:hover ul{right:0;}
+html.js fieldset.collapsible div.fieldset-wrapper{overflow:visible;}
+@media print{
+  #suckerfishmenu{display:none;}
+}
+
+/* Admin Links */
+#theme-admin-block {padding: 0 0 0 0; margin: 0 3px 0 21px; background:url(images/opacity-30.png); color: #FFFFFF;}
+#theme-admin-block a:link, 
+#theme-admin-block a:hover,
+#theme-admin-block a:visited {color: #eeb300;}
+#tabs-wrapper {margin: 0; padding: 0;}
+.node-unpublished {background: transparent; border: 5px solid red;}
+
+.title-plaque h2 {
+	margin:0px 0px 0px 0px;
+}
+
+.title-plaque h2, .title-plaque h2 a{
+	color:#EEB300;
+	font-family:‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-variant:small-caps;
+}
+
+.title-plaque h2{
+	font-size:1.3em;
+	margin-top:7px;
+	z-index:202;
+}
+
+.title-plaque h2 a{
+	font-size:1.0em;
+	font-weight:bold;
+}
+
+.title-plaque h2  a:hover{
+	text-decoration:none;
+}
+
+#block-menu_block-1 ul.menu li a{
+	font-family:‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size:1.4em;
+	font-weight:bold;
+}
+
+.field-field-image{
+	text-align:center;
+}
+
+/*------------------ CUSTOM STYLES (C. ROSS) ----------------*/
+
+img.css3Image, p img.css3Image{
+	width:520px;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	-moz-transition: -moz-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+
+img.css3Image:hover, p img.css3Image:hover{
+	-webkit-transform: scale(2.0);
+	-moz-transform: scale(2.0);
+	-o-transform:scale(2.0);
+	transform:scale(2.0);
+	-webkit-box-shadow:0px 0px 20px rgba(128,128,128,0.7);
+	-moz-box-shadow:0px 0px 20px rgba(128,128,128,0.7);
+	box-shadow:0px 0px 20px rgba(128,128,128,0.7);
+	border:#999 1px solid;
+	position:relative;
+	z-index:20000;
+}
+
+.modelListing .views-row{
+	overflow:auto;
+	display:block;
+	float:none;
+	padding:8px;
+	margin:10px auto;
+	border:none 0px;
+	background-color:rgba(0, 0, 0, 0.4);
+	background-image:none;
+}
+
+.modelListing .views-field-field-image-fid, .modelListing .views-field-field-image-fid a{
+	float:left;
+	margin:0px 6px 0px 0px;
+}
+
+.modelListing .views-field-field-image-fid{
+	z-index:202;
+}
+
+.modelListing .views-field-field-image-fid a img{
+	border:#333 1px solid;
+}
+
+.modelListing .views-field-field-image-fid a:hover img{
+	border:#666 1px solid;
+}
+
+.modelListing .views-field-title{
+	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-variant:small-caps;
+	font-size:1.5em;
+	font-weight:lighter;
+	clear:none;
+}
+
+.modelListing .views-field-title a:hover{
+	text-decoration:none;
+}
+
+.modelListing .views-field-field-base-size-value, .modelListing .views-field-field-model-count-value, .modelListing .views-field-field-price-value, .modelListing .views-field-field-release-date-value{
+	clear:none;
+	font-size:1.0em
+}
